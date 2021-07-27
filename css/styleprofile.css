@@ -1,0 +1,518 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+   
+    position: relative;
+}
+
+/*table buttom*/
+
+table th{
+    text-transform: uppercase;
+    height: 20px;
+  
+}
+table{
+    margin-top: 20px ;
+    width: 100%; 
+}
+table tr{
+    text-align: center;
+    font-size: 17px;
+
+}
+table td{
+    border-top: 1px solid rgb(46, 103, 136);
+    padding-top: 10px;
+    height: 30px;
+}
+
+table tr td button{
+    width: 30%;
+    height: 70%;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    text-align: center;
+    transition: 0.5s;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+table tr td button:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+/*table buttom*/
+
+
+
+
+
+/* div profile */
+
+.profile{
+    position: absolute;
+    width: 600px;
+    height:  200px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 500px; 
+    display: none;
+    border-radius: 10px;
+}
+
+
+
+.profile .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.profile .information i{
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.profile .information img{
+    border-radius: 50%;
+    width: 70px;
+    
+}
+
+.profile .information ul{
+    text-decoration: none;
+    list-style: none;
+    margin-right:10px ;
+
+}
+.profile  ul{
+    text-decoration: none;
+    list-style: none;
+}
+.profile  ul li i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* div profile */
+
+/*    header    */
+.layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.layout header label{
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 30%;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+}
+.layout header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+    position: relative;
+}
+
+.layout header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.layout header ul li{
+    padding-right: 50px;
+    line-height: 60px;
+
+}
+.layout header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.layout header ul li a:hover{
+    color: hotpink;
+}
+
+.layout header ul li img{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+    top: 20px;
+    cursor: pointer;
+}
+
+/*    header    */
+
+
+/*    main    */
+.layout .main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*    information    */
+.layout .main .infouser{
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+   background: blanchedalmond;
+    position: relative;
+
+}
+.layout .main .infouser label{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.layout .main .infouser .forms form{
+    display: flex;
+}
+
+.layout .main .infouser .forms form input[type=submit]{
+    position: absolute;
+    bottom: 20px;
+    left: 650px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  
+    
+}
+
+
+.layout .main .infouser .forms form input[type=submit]:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+  .layout .main .infouser .forms form .email{
+      text-transform: uppercase;
+      margin-left: 13px;
+  }
+  .layout .main .infouser .forms form .email input{
+      margin-left: 5px;
+      margin-right: 70px;
+      margin-top:10px ;
+      border-radius: 10px;
+      height: 40px;
+  }
+
+
+
+/*    information    */
+
+
+/*    formation    */
+
+.formation {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: blanchedalmond;
+    border-radius: 10px;
+    border:1px solid black ;
+}
+.formation label{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.formation .contains{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.formation .contains .chercher{
+    position: relative;
+    margin-left: 25px;
+}
+.formation .contains .chercher input{
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+.formation .contains .chercher i {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color:brown;
+}
+.formation .contains button{
+    margin-right: 25px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+
+}
+.formation .contains button:hover{
+
+        background-position: right center; 
+        color: #fff;
+        text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+
+/*    formation    */
+
+
+
+/*   experience-professionnel   */
+.top{
+    margin-top: 10px;
+}
+
+/*   experience-professionnel   */
+
+
+
+
+
+/*    main    */
+
+/*  footer */
+ footer{ 
+    padding-top: 20px;
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+ footer ul li i{
+    font-size: 35px;
+}
+
+
+
+/*add formation */
+
+.addformation{
+    position: absolute;
+    width: 600px;
+    height:  300px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 500px; 
+    border-radius: 10px;
+    display: none;
+}
+
+.addformation .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addformation .img i{
+    font-size: 22px;
+    margin: 7px;
+    color: crimson;
+    cursor: pointer;
+}
+.form{
+    margin-top: 7px;
+}
+
+.formfomation{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub{
+    margin-top: 7px;
+    width: 250px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+    background: darkmagenta;
+
+}
+
+
+
+
+/*add formation */
+
+
+/*add experience */
+
+.addexperience{
+    position: absolute;
+    width: 600px;
+    height:  300px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 400px;
+    left: 500px; 
+    border-radius: 10px;
+    display: none;
+}
+
+.addexperience .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addexperience .img i{
+    font-size: 22px;
+    margin: 7px;
+    color: crimson;
+    cursor: pointer;
+}
+.form{
+    margin-top: 7px;
+}
+
+.formexperience{
+    display: flex;
+    justify-content: center;
+}
+
+/*add experience */
+
+
+
+/*add competence */
+
+.addcompetence{
+    position: absolute;
+    width: 600px;
+    height:  300px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 550px;
+    left: 500px; 
+    border-radius: 10px;
+    display: none;
+}
+
+.addcompetence .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addcompetence .img i{
+    font-size: 22px;
+    margin: 7px;
+    color: crimson;
+    cursor: pointer;
+}
+.form{
+    margin-top: 7px;
+}
+
+.formcomptecnce{
+    display: flex;
+    justify-content: center;
+}
+
+/*add competence */
+
+
+
+
+
+.formation img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}

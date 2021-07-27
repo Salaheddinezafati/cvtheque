@@ -1,0 +1,427 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.content{
+    width: 100%;
+    height: 721px;
+    background: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: row;
+ 
+  
+}
+/*-------------------------------------------------------------------------------------*/
+/************************  navbar *************************************/
+.content .navbar{
+    width: 24%;
+    background-image: linear-gradient( 91.9deg,  rgba(0,29,38,1) 2.6%, rgba(0,191,255,1) 99.1% );
+    transition: 0.7s;
+
+}
+.content .navbar img{
+    width: 300px;
+    height: 50px;
+    margin: 12px auto;
+}
+.content .navbar ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.content .navbar ul li {
+    margin-bottom: 16px;
+}
+.content .navbar ul li i{
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+.content .navbar ul li span{
+    font-size: 16px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    
+}
+
+.content .navbar2{
+    width: 3%;
+    background-image: linear-gradient( 91.9deg,  rgba(0,29,38,1) 2.6%, rgba(0,191,255,1) 99.1% );
+    transition: 0.7s;
+
+}
+.content .navbar2 img{
+   display: none;
+}
+.content .navbar2 ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.content .navbar2 ul li {
+    margin-bottom: 16px;
+}
+.content .navbar2 ul li i{
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+.content .navbar2 ul li span{
+ display: none;
+    
+}
+
+
+/************************  navbar *************************************/
+
+/************************  main header *************************************/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+.main header{
+    width: 100%;
+    height: 10%;
+    background: rgb(255, 255, 255);
+}
+
+.main header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;padding: 7px;
+    position: relative;
+}
+
+.main header ul li{
+    padding: 10px;
+}
+.main header ul li img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    cursor: pointer;
+}
+.main header ul li .srch {
+    position: relative;
+}
+.main header ul li .srch i{
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    cursor: pointer;
+}
+.main header ul li .srch input{
+    outline: none;
+    width: 340px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+ 
+}
+
+.main header ul li .srch input:focus{
+  width: 550px;
+  
+}
+
+
+.main header ul li i {
+    font-size: 22px;
+    color: blue;
+    cursor: pointer;
+   
+}
+.main header ul li .fa-bars:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.main header ul li .fa-search{
+    font-size: 17px;
+    color: black;
+}
+/************************  main header *************************************/
+
+/************************  main content1 *************************************/
+
+.main .content1{
+    margin: 10px;
+    width: 97%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .content1 .items{
+    width: 23.5%;
+    background: #fff;
+    border-radius: 7px;
+    position: relative; 
+    margin: 10px;
+}
+
+.main .content1 .items i{
+    position: absolute; 
+    font-size: 25px;
+    color: rgb(34, 109, 170);
+    top: 60px;
+    right: 20px;
+}
+
+.main .content1 .items .bold{
+    position: absolute; 
+    font-size: 25px;
+    color: black;
+    top: 27px;
+    left: 20px;
+    font-weight: bold;
+}
+
+.main .content1 .items .gray{
+    position: absolute; 
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    top: 70px;
+    left: 20px;
+}
+
+
+
+/************************  main content1 *************************************/
+
+
+/************************  main content2 *************************************/
+
+.main .content2{
+    margin: 10px auto;
+    width: 97%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .content2 .info_user{
+    width: 65%;
+    height: 100%;
+    background: #fff;
+    margin-right: 10px;
+    border-radius:10px ;
+    overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(73, 84, 133);
+}
+.main .content2 .info_user label{
+    margin-top:10px ;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(36, 59, 94);
+}
+
+
+#addrectruteur{
+   float: right;
+   margin-right: 7px;
+   width: 150px;
+   text-transform: uppercase;
+   color: beige;
+   background: rgb(46, 103, 136);
+   height: 25px;
+   border-radius: 10px;
+   cursor: pointer;
+
+}
+
+
+
+.main .content2 .info_recruteur{
+    width: 35%;
+    height: 100%;
+    background: #fff;
+    margin-left: 10px;
+    border-radius:10px ;
+    overflow-y: scroll;
+}
+
+.main .content2 .info_recruteur label{
+    margin-top:10px ;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(46, 103, 136);
+}
+
+
+
+
+/************************  main content2 *************************************/
+
+
+/************************  table style *************************************/
+
+
+table{
+    margin-top: 20px ;
+    width: 100%; 
+}
+table tr{
+    text-align: center;
+    font-size: 17px;
+
+}
+table td{
+    border-top: 1px solid rgb(46, 103, 136);
+    padding-top: 10px;
+    height: 30px;
+}
+.btninfouser{
+    width: 70%;
+    height: 90%;
+    color: rgb(255, 255, 255);
+    border-radius:10px ;
+    background: rgb(34, 109, 170);
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
+/************************  table style *************************************/
+
+
+
+
+/************************  add compte *************************************/
+.addexperience{
+    position: absolute;
+    width: 600px;
+    height:  350px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 500px; 
+    border-radius: 10px;
+    display: none; 
+}
+.addexperience .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addexperience .img i{
+    font-size: 22px;
+    margin: 7px;
+    color: crimson;
+    cursor: pointer;
+}
+.form{
+    margin-top: 7px;
+}
+
+.formexperience{
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    background:  rgb(255, 255, 255);
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    border-radius:10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/************************  add compte  *************************************/
+
+
+
+/* div profile */
+
+.profile{
+    position: absolute;
+    width: 600px;
+    height:  200px;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 500px; 
+    display: none;
+    border-radius: 10px;
+}
+
+
+
+.profile .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.profile .information i{
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.profile .information img{
+    border-radius: 50%;
+    width: 70px;
+    
+}
+
+.profile .information ul{
+    text-decoration: none;
+    list-style: none;
+    margin-right:10px ;
+
+}
+.profile  ul{
+    text-decoration: none;
+    list-style: none;
+}
+.profile  ul li i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* div profile */
+
+.bt{
+    width: 50px;
+    height: 25px;
+    background: #fff;
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+summary{
+    color: cornsilk;
+    font-size: 20px;
+    margin: 20px;
+   cursor: pointer;
+}
