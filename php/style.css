@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  padding:0;
+
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 720px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 300px;
+
+}
+.main1 img {
+    width: 60%;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+table{
+    width: 100%;
+}
+table td{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+table td input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#sub{
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 700px;
+    top: 100px;
+
+}
+
