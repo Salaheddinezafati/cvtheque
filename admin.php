@@ -28,7 +28,7 @@ else{
         <!--*********  navbar  ********  -->
 
         <div id="nav" class="navbar">    <!--  le probleme dans cette navbar   -->
-            <img id="img" src="images/LogoMakr-54D2Hw.png" alt="">
+            <img id="img" src="images/logo.png" alt="">
             <ul>
                 <li><i class="fas fa-home"></i> &nbsp&nbsp <span id="dis1">accueille</span></li>
                 <li><i class="fas fa-unlock-alt"></i> &nbsp&nbsp <span id="dis2">passwords</span></li>
