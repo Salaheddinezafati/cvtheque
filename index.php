@@ -16,7 +16,7 @@
     <div class="layout">
 
         <div class="header">
-            <span>dxc-technology</span>
+            <span>cvtheque-dxc-technology</span>
             <ul>
                 <?php
                 
