@@ -31,7 +31,7 @@ $pr = $_SESSION['prenomemp'];
     <div class="layout">
         
         <header>
-            <label for="">dxc-technology</label>
+            <label for="">cvtheque-dxc-technology</label>
             <ul>
                 <li><a href="contacter.php">contacter</a></li>
                 <li><a href="php/forgetpassword.php">password</a></li>
