@@ -63,7 +63,7 @@ if(isset($_POST['md'])){
 <div class="all">
 	
 	<div class="logo">
-	<img src="../../images/LogoMakr-54D2Hw.png">
+	<img src="../../images/logo.png">
 	
 </div>
 
