@@ -130,7 +130,7 @@ if(isset($_POST['subcode'])){
 <div class="layout">
 
   <div class="main1">
-    <img src="../images/LogoMakr-54D2Hw.png" alt="">
+    <img src="../images/logo.png" alt="">
   </div>
 
 
