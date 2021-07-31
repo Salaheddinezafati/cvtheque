@@ -14,7 +14,7 @@
 
 
         <div class="main1">
-            <span>dxc-technology</span>
+            <span>cvtheque-dxc-technology</span>
             <button class="btn">creer un compte</button>
         </div>
 
