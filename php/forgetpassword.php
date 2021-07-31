@@ -103,7 +103,7 @@ if($oldpassword==$old_pass_database && $newpassword1==$newpassword2){
 ?>
 <div class="layout">
     <div class="main1">
-        <img src="../images/LogoMakr-54D2Hw.png" alt="">
+        <img src="../images/logo.png" alt="">
     </div>
     <div class="main2">
         <form action="" method="post">
