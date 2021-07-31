@@ -30,6 +30,41 @@ else{
     <link rel="stylesheet" href="css\stylerec.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
     <title>Document</title>
+    <style>
+        .content1 .items1{
+            width: 23.5%;
+            background: #fff;
+            border-radius: 7px;
+            margin: 10px;
+            text-align: center;
+            padding:10px;
+        }
+        .content1 .items1 span{
+            color:blue;
+            font-size:18px;
+            text-transform:uppercase;
+        }
+        .content1 .items1 form{
+            display: flex;
+            flex-direction:column;
+            width:100%;
+        }
+        .content1 .items1 form .input{
+            margin:7px;
+            margin-left:0;
+            
+        }
+         input[type=number]{
+            width:40px;
+        }
+        input[type=text]{
+            width:110px;
+        }
+        input[type=submit]{
+            width:80px;
+            margin-left:80px;
+        }
+    </style>
 </head>
 <body>
     
@@ -38,7 +73,7 @@ else{
         <!--*********  navbar  ********  -->
 
         <div id="nav" class="navbar">
-            <img  id="img" src="images/LogoMakr-54D2Hw.png" alt="">
+            <img  id="img" src="images/logo.png" alt="">
             <ul>
                 <li><i class="fas fa-home"></i> &nbsp&nbsp <span id="dis1">accueille</span></li>
                 <a href="php/forgetpassword.php"> <li><i class="fas fa-unlock-alt"></i> &nbsp&nbsp <span id="dis2">passwords</span></li></a>
@@ -47,7 +82,7 @@ else{
 
           <details>
             <summary>
-              filtre
+            Filtrage des employeurs
             </summary>
              
                 <button class="bt" onclick="plus1()">+1</button>
@@ -100,6 +135,21 @@ else{
             <div class="content1">
                 <div class="items"><span class="bold"><?php echo $resemp?></span>  <span class="gray">Employer</span> <i class="fas fa-eye"></i></div>
                 <div class="items"><span class="bold"><?php echo "3"?></span>  <span class="gray">Employer selon mon profile</span><i class="fas fa-user-alt"></i></div>
+                <div class="items1">
+                    <span  >Filtrage des employeurs </span>  
+                    <form action="srch/index.php" method="post">
+
+
+                        <div class="input">annee experienc <input type="number" name="numeexp" id=""></div>
+                        <div class="input">profile<input type="text" name="profilename" id=""></div>
+                         <input type="submit" name="subprexp" id="">
+                       
+                   
+                
+                </form>
+                 
+            
+            </div>
 
             </div>
 
